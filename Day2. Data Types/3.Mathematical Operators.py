@@ -14,3 +14,6 @@
 
 # Exponent
 2 ** 3
+
+# Module 
+3 % 2
