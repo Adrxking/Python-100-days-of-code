@@ -1,13 +1,14 @@
-# This code is a band name generator that combains
-# the city where your born and the name of your pet 
+# Convert an Integer into String
+print( "The number of characters of your name is -> " + str( len( input("Write your name -> \n") ) ) )
 
-# 1. Create the program
-print("Welcome to my Band Name Generator")
-# 2. Ask for the city
-city = input ("Please, write the name of the city where you grew up in\n")
-# 3. Ask for the name of the pet
-pet = input ("Please, write the name of your pet\n")
-# 4. Combine the name of the city and the pet
-band_name = city + " " + pet
-# 5. Show the name of the band
-print (band_name)
+# Convert a String into a Float
+print(123 + float("123.123"))
+
+# Program that adds the digits in a 2 digit number.
+#e.g. If the input is 35 then we have to do 3 + 5 = 8
+both_digits = input("Please write two digits\n")
+
+first_digit = int(both_digits[0])
+second_digit = int(both_digits[1])
+
+print("The result of " + str(first_digit) + " + " + str(second_digit) + " is " + str(first_digit + second_digit) )
