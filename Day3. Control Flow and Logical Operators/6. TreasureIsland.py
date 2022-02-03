@@ -22,6 +22,8 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 print("Bienvenido a la isla del tesoro.")
 print("Tu mision es encontrar el tesoro.")
+print("")
+print("")
 
 choice1 = input("Estas en un cruce, donde eliges ir ? Escribe \"Izquierda\" o \"Derecha\" \n").lower()
 
@@ -31,9 +33,9 @@ if choice1 == "izquierda":
         choice3 = input("Has llegado a la isla desarmado. Hay una casa con 3 puertas. Una roja, una amarilla y una azul. Que color eliges? \n").lower()
         if choice3 == "roja":
             print("Has entrado en una habitacion en llamas. Game Over ;)")
-        if choice3 == "amarilla":
+        elif choice3 == "amarilla":
             print("Has encontrado el tesoro!!!")
-        if choice3 == "azul":
+        elif choice3 == "azul":
             print("Has entrado en una habitacion y te ha disparado el propietario. Game Over ;)")
         else:
             print("Esa puerta no existe.")
